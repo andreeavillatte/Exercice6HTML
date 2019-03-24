@@ -1,8 +1,12 @@
-#conteneur{
+#conteneur1{
     display: flex;
     flex-wrap: wrap;
-    }
-
+}
+#conteneur2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 64%;
+}
 .vert {
     width: 80%;
     height: 20px;
@@ -15,16 +19,16 @@
 }
 .rouge {
     width: 36%;
-    height: 20px;
+    height: 40px;
     background-color: #E74C3C;
 }
 .orangeclair {
-    width: 33%;
+    width: 50%;
     height: 20px;
     background-color: #F39C12;
 }
 .gris {
-    width: 33%;
+    width: 50%;
     height: 20px;
     background-color: #95A5A6;
 }
@@ -34,17 +38,17 @@
     background-color: yellow;
 }
 .vertfonce {
-    width: 50%;
+    width: 33%;
     height: 20px;
     background-color: #16A085;
 }
 .orangefonce {
-    width: 50%;
+    width: 33%;
     height: 20px;
     background-color: orange;
 }
 .bleufonce {
     width: 100%;
     height: 60px;
-    background-color: blueviolet;
+    background-color: rgb(7, 69, 131);
 }
